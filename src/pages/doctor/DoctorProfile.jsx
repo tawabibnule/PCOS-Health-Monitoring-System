@@ -43,7 +43,7 @@ const DoctorProfile = () => {
                 <Users className="text-muted" />
                 <div>
                   <strong>Consultations Completed</strong>
-                  <p>1,450+ total consultations on PCOS Niramoy</p>
+                  <p>1,450+ total consultations on OvaCare</p>
                 </div>
               </div>
               <div className="info-item">

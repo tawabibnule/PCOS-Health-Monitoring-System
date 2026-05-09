@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container nav-content">
         <Link to="/" className="nav-brand">
           <Activity color="var(--primary)" size={28} />
-          <span>PCOS Niramoy</span>
+          <span>OvaCare</span>
         </Link>
         <div className="nav-links">
           {user ? (

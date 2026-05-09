@@ -21,7 +21,7 @@ const Login = () => {
     <div className="login-page container">
       <div className="glass-card login-card animate-fade-in">
         <div className="login-header text-center">
-          <h2>Welcome to PCOS Niramoy</h2>
+          <h2>Welcome to OvaCare</h2>
           <p className="text-muted">Select your role to continue (Mock Auth)</p>
         </div>
 

@@ -11,7 +11,7 @@ const Home = () => {
           <div className="hero-text animate-fade-in">
             <h1>Take Control of Your Health Journey</h1>
             <p className="hero-subtitle">
-              PCOS Niramoy helps you track symptoms, understand your health score, 
+              OvaCare helps you track symptoms, understand your health score, 
               and connect securely with top specialists—all in one beautiful app.
             </p>
             <div className="hero-actions">
@@ -31,7 +31,7 @@ const Home = () => {
 
       <section className="features container">
         <div className="section-title">
-          <h2>Why Choose PCOS Niramoy?</h2>
+          <h2>Why Choose OvaCare?</h2>
         </div>
         
         <div className="features-grid">
