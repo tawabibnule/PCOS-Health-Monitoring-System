@@ -1,0 +1,71 @@
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 200px);
+  padding: 2rem 1.5rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 800px;
+  padding: 3rem;
+}
+
+.login-header {
+  margin-bottom: 3rem;
+}
+
+.login-header h2 {
+  color: var(--primary-dark);
+}
+
+.role-selection {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .role-selection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.role-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  background: white;
+  border: 2px solid #E2E8F0;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.role-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.patient-role:hover {
+  border-color: var(--primary);
+  background: rgba(255, 123, 156, 0.05);
+}
+
+.doctor-role:hover {
+  border-color: var(--secondary);
+  background: rgba(74, 144, 226, 0.05);
+}
+
+.role-btn h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.role-btn p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
